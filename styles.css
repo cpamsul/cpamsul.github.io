@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.logo-container {
+    margin-top: 20px; /* Adiciona margem entre as imagens e o texto */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Centraliza as imagens e adiciona margem na parte inferior */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
+}
+
+.logo-1 {
+    width: 150px; /* Define a largura da logo 1 */
+}
+
+.logo-2 {
+    width: 87px; /* Define a largura da logo 2 */
+    margin-bottom: 50px; /* Adiciona margem na parte inferior da logo 3 */
+}
+
+.logo-3 {
+    width: 75px; /* Define a largura da logo 3 */
+    margin-bottom: 50px; /* Adiciona margem na parte inferior da logo 3 */
+}
+
+/* Adicione ao seu arquivo styles.css */
+
