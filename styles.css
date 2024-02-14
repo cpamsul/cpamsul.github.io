@@ -2,14 +2,22 @@
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: rgb(179,184,255);
+    background: linear-gradient(0deg, rgba(179,184,255,1) 0%, rgba(177,182,255,1) 0%, rgba(252,252,252,1) 100%);
 }
 
 .container {
     text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .title {
@@ -29,6 +37,8 @@ body {
     display: block;
     margin: 0 auto 20px; /* Centraliza as imagens e adiciona margem na parte inferior */
     height: auto; /* Permite que a altura seja ajustada automaticamente */
+
+    
 }
 
 .logo-1 {
@@ -38,6 +48,7 @@ body {
 .logo-2 {
     width: 87px; /* Define a largura da logo 2 */
     margin-bottom: 50px; /* Adiciona margem na parte inferior da logo 3 */
+
 }
 
 .logo-3 {
