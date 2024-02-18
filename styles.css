@@ -77,11 +77,14 @@ body {
 }
 
 .logo-5 {
-    width: 35px; /* Define a largura da logo 4 */
+    width: 47px; /* Define a largura da logo 4 */
 }
 
 .logo-6 {
+    width: 35px; /* Define a largura da logo 4 */
+}
 
+.logo-7 {
     width: 140px; /* Define a largura da logo 6 */
 }
 /* Adicione ao seu arquivo styles.css */
