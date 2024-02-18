@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     background: rgb(179,184,255);
-    background: linear-gradient(0deg, rgba(179,184,255,1) 0%, rgba(177,182,255,1) 0%, rgba(252,252,252,1) 100%);
+    background: linear-gradient(0deg, rgb(4, 14, 143) 0%, rgb(2, 6, 66) 0%, rgba(252,252,252,1) 100%);
 }
 
 .container {
@@ -47,7 +47,7 @@ body {
 
 .logo-2 {
     width: 87px; /* Define a largura da logo 2 */
-    margin-bottom: 50px; /* Adiciona margem na parte inferior da logo 3 */
+    margin-bottom: 25px; /* Adiciona margem na parte inferior da logo 3 */
 
 }
 
@@ -56,5 +56,33 @@ body {
     margin-bottom: 50px; /* Adiciona margem na parte inferior da logo 3 */
 }
 
+
+.footer{
+    display: flex;
+    justify-content: end;
+}
+.text-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: white;
+    margin-top: 30px; /* Adiciona margem entre as imagens e o texto */
+}
+
+.logo-container2 {
+    margin-top: 20px; /* Adiciona margem entre as imagens e o texto */
+}
+
+.logo-4 {
+    width: 40px; /* Define a largura da logo 4 */
+}
+
+.logo-5 {
+    width: 35px; /* Define a largura da logo 4 */
+}
+
+.logo-6 {
+
+    width: 140px; /* Define a largura da logo 6 */
+}
 /* Adicione ao seu arquivo styles.css */
 
